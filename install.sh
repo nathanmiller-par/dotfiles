@@ -1,3 +1,7 @@
+#!/bin/bash
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 DOTFILES="\
     screenrc \
     vim \
@@ -7,7 +11,8 @@ DOTFILES="\
 "
 
 IFS=' '
-for item in $DOTFILES
+for dotfile in $DOTFILES
 do
-    echo "Installing .$item"
+    echo "Installing .${dotfile}"
+    ln -s ${SCRIPT_DIR}/${dotfile} "${HOME}/.${dotfile}"
 done
