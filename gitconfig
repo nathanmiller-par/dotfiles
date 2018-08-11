@@ -1,0 +1,20 @@
+[alias]
+    st = status
+    cm = commit
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    gud = !git pull && git push
+    cliff = !clear && git diff
+    pushup = !git push -u origin $(git rev-parse --abbrev-ref HEAD)
+[user]
+    name = Nathan Miller
+    email = nathan.miller@theactigraph.com
+[push]
+    default = simple
+[core]
+    editor = vim
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[gpg]
+	program = gpg2
