@@ -7,7 +7,7 @@
     pushup = !git push -u origin $(git rev-parse --abbrev-ref HEAD)
 [user]
     name = Nathan Miller
-    email = nathan.miller@theactigraph.com
+    email = nmiller014@gmail.com
 [push]
     default = simple
 [core]
