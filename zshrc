@@ -62,7 +62,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git aws common-aliases screen zsh-autosuggestions zsh-cdh-toolkit zsh-nebulizer)
+plugins=(git common-aliases screen zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,9 +108,6 @@ export TERM="xterm-256color"
 
 export QUOTING_STYLE=literal
 export PATH="/home/$USER/.bin:$PATH"
-export PATH="/home/$USER/cdh-developer-toolkit:$PATH"
 
-export CDH_FIND_SKIP_IPS="192.168.1.100 192.168.1.101"
-export CDH_TOOLKIT_COLOR_ENABLED="true"
 
 cd ~
