@@ -1,0 +1,109 @@
+[global_config]
+  always_split_with_profile = True
+  enabled_plugins = TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = Material colors
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#839496"
+  [[3024 Night]]
+    background_color = "#090300"
+    cursor_color = "#a5a2a2"
+    foreground_color = "#a5a2a2"
+    palette = "#090300:#db2d20:#01a252:#fded02:#01a0e4:#a16a94:#b5e4f4:#a5a2a2:#5c5855:#e8bbd0:#3a3432:#4a4543:#807d7c:#d6d5d4:#cdab53:#f7f7f7"
+  [[Afterglow]]
+    background_color = "#212121"
+    cursor_color = "#d0d0d0"
+    foreground_color = "#d0d0d0"
+    palette = "#151515:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#d0d0d0:#505050:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#f5f5f5"
+  [[AlienBlood]]
+    background_color = "#0f1610"
+    cursor_color = "#73fa91"
+    foreground_color = "#637d75"
+    palette = "#112616:#7f2b27:#2f7e25:#717f24:#2f6a7f:#47587f:#327f77:#647d75:#3c4812:#e08009:#18e000:#bde000:#00aae0:#0058e0:#00e0c4:#73fa91"
+  [[Argonaut]]
+    background_color = "#0e1019"
+    cursor_color = "#ff0018"
+    foreground_color = "#fffaf4"
+    palette = "#232323:#ff000f:#8ce10b:#ffb900:#008df8:#6d43a6:#00d8eb:#ffffff:#444444:#ff2740:#abe15b:#ffd242:#0092ff:#9a5feb:#67fff0:#ffffff"
+  [[Bright Lights]]
+    background_color = "#191919"
+    cursor_color = "#f34b00"
+    foreground_color = "#b3c9d7"
+    palette = "#191919:#ff355b:#b7e876:#ffc251:#76d4ff:#ba76e7:#6cbfb5:#c2c8d7:#191919:#ff355b:#b7e876:#ffc251:#76d5ff:#ba76e7:#6cbfb5:#c2c8d7"
+  [[Highway]]
+    background_color = "#222225"
+    cursor_color = "#e0d9b9"
+    foreground_color = "#ededed"
+    palette = "#000000:#d00e18:#138034:#ffcb3e:#006bb3:#6b2775:#384564:#ededed:#5d504a:#f07e18:#b1d130:#fff120:#4fc2fd:#de0071:#5d504a:#ffffff"
+  [[Lucy]]
+    background_color = "#1a1b23"
+    cursor_color = "#af98e6"
+    foreground_color = "#96979b"
+    palette = "#2e3436:#fb7da7:#76c5a4:#e8d56d:#3465a4:#af98e6:#56c9db:#d3d7cf:#555753:#fb7da7:#76c5a4:#e8d56d:#729fcf:#af98e6:#56c9db:#eeeeec"
+  [[Material colors]]
+    background_color = "#1e282c"
+    cursor_color = "#657B83"
+    foreground_color = "#c3c7d1"
+    palette = "#073641:#eb606b:#c3e88d:#f7eb95:#80cbc3:#ff2490:#aeddff:#ffffff:#384b53:#eb606b:#c3e88d:#f7eb95:#7dc6bf:#6c71c3:#34434d:#ffffff"
+  [[Material-Ocean]]
+    background_color = "#0f111a"
+    cursor_color = "#ffcc00"
+    cursor_color_fg = False
+    foreground_color = "#8f93a2"
+    palette = "#2e3436:#ff5370:#c3e88d:#ffcb6b:#82aaff:#c792ea:#89ddff:#d3d7cf:#555753:#f07178:#c3e88d:#f78c6c:#729fcf:#bb80b3:#89ddff:#eeeeec"
+  [[MaterialDark]]
+    background_color = "#232322"
+    cursor_color = "#16afca"
+    foreground_color = "#e5e5e5"
+    palette = "#212121:#b7141f:#457b24:#f6981e:#134eb2:#560088:#0e717c:#efefef:#424242:#e83b3f:#7aba3a:#ffea2e:#54a4f3:#aa4dbc:#26bbd1:#d9d9d9"
+  [[Monokai dark]]
+    background_color = "#272822"
+    cursor_color = "#ffffff"
+    foreground_color = "#f8f8f2"
+    palette = "#75715e:#f92672:#a6e22e:#f4bf75:#66d9ef:#ae81ff:#2aa198:#f9f8f5:#272822:#f92672:#a6e22e:#f4bf75:#66d9ef:#ae81ff:#2aa198:#f9f8f5"
+  [[Nord]]
+    background_color = "#2E3440"
+    cursor_color = "#D8DEE9"
+    foreground_color = "#D8DEE9"
+    palette = "#3B4252:#BF616A:#A3BE8C:#EBCB8B:#81A1C1:#B48EAD:#88C0D0:#E5E9F0:#4C566A:#BF616A:#A3BE8C:#EBCB8B:#81A1C1:#B48EAD:#8FBCBB:#ECEFF4"
+  [[Ocean dark]]
+    background_color = "#1c1f27"
+    cursor_color = "#a0a4b2"
+    foreground_color = "#979cac"
+    palette = "#4F4F4F:#AF4B57:#AFD383:#E5C079:#7D90A4:#A4799D:#85A6A5:#EEEDEE:#7B7B7B:#AF4B57:#CEFFAB:#FFFECC:#B5DCFE:#FB9BFE:#DFDFFD:#FEFFFE"
+  [[OceanicMaterial]]
+    background_color = "#1c262b"
+    cursor_color = "#b3b8c3"
+    foreground_color = "#c2c8d7"
+    palette = "#000000:#ee2b2a:#40a33f:#ffea2e:#1e80f0:#8800a0:#16afca:#a4a4a4:#777777:#dc5c60:#70be71:#fff163:#54a4f3:#aa4dbc:#42c7da:#ffffff"
+  [[Tomorrow Night]]
+    background_color = "#1d1f21"
+    cursor_color = "#c5c8c6"
+    foreground_color = "#c5c8c6"
+    palette = "#000000:#cc6666:#b5bd68:#f0c674:#81a2be:#b294bb:#8abeb7:#ffffff:#000000:#cc6666:#b5bd68:#f0c674:#81a2be:#b294bb:#8abeb7:#ffffff"
+  [[Tomorrow Night Bright]]
+    cursor_color = "#eaeaea"
+    foreground_color = "#eaeaea"
+    palette = "#000000:#d54e53:#b9ca4a:#e7c547:#7aa6da:#c397d8:#70c0b1:#ffffff:#000000:#d54e53:#b9ca4a:#e7c547:#7aa6da:#c397d8:#70c0b1:#ffffff"
+  [[Tomorrow Night Eighties]]
+    background_color = "#2d2d2d"
+    cursor_color = "#cccccc"
+    foreground_color = "#cccccc"
+    palette = "#000000:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#ffffff:#000000:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#ffffff"
+  [[idleToes]]
+    background_color = "#323232"
+    cursor_color = "#d6d6d6"
+    foreground_color = "#ffffff"
+    palette = "#323232:#d25252:#7fe173:#ffc66d:#4099ff:#f680ff:#bed6ff:#eeeeec:#535353:#f07070:#9dff91:#ffe48b:#5eb7f7:#ff9dff:#dcf4ff:#ffffff"

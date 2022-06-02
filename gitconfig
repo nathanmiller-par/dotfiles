@@ -7,11 +7,13 @@
     pushup = !git push -u origin $(git rev-parse --abbrev-ref HEAD)
 [user]
     name = Nathan Miller
-    email = nmiller014@gmail.com
+    email = nathan@nathanmiller.wtf
 [push]
     default = simple
 [core]
     editor = vim
+    autocrlf = input
+	excludesfile = /home/nathan/.gitignore_global
 [diff]
 	tool = vimdiff
 [difftool]
