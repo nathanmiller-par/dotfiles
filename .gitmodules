@@ -10,3 +10,6 @@
 [submodule "vim/bundle/vim-linux-coding-style"]
 	path = vim/bundle/vim-linux-coding-style
 	url = https://github.com/vivien/vim-linux-coding-style
+[submodule "zsh-plugins/zsh-autosuggestions"]
+	path = zsh-plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
