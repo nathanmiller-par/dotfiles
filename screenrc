@@ -4,24 +4,13 @@ defbce on    # use current bg color for erased chars
 term screen-256color
 vbell off # I hate PuTTY's vbell. Some day I'll find a terminal emulator I like.
 
-#change the hardstatus settings to give an window list at the bottom of the
-#screen, with the time and date and with the current window highlighted
+# change the hardstatus settings to give an window list at the bottom of the
+# screen, with the time and date and with the current window highlighted
 hardstatus alwayslastline
 #hardstatus string '%{= kG}%-Lw%{= kW}%50> %n%f* %t%{= kG}%+Lw%< %{= kG}%-=%c:%s%{-}'
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W}%c:%s %{g}]'
 
-screen -t left
-select 0
-stuff "cu -fs 115200 -l /dev/ftdi-red ^M"
-screen -t right
-select 1
-stuff "cu -fs 115200 -l /dev/ftdi-blue ^M"
-screen -t yocto
-select 2
-stuff "cd cdh-yocto; source build-env ^M"
-screen -t yocto-dev
-select 3
-stuff "cd cdh-yocto ^M"
-screen -t core-tools-dev
-select 4
-stuff "cd cdh-core-tools ^M"
+# screen -t TITLE # open a screen and set the title to "TITLE"
+# select 0 # select a specific screen (might not be necessary)
+# stuff "echo 'hello world' ^M" # run a command in the new screen
+
