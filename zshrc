@@ -111,3 +111,6 @@ export PATH="/home/$USER/.bin:$PATH"
 
 
 cd ~
+
+source ${HOME}/.zshrc.private
+export SCREENDIR=$HOME/.screen
