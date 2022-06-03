@@ -112,5 +112,9 @@ export PATH="/home/$USER/.bin:$PATH"
 
 cd ~
 
-source ${HOME}/.zshrc.private
+private_rc_file_path="${HOME}/.zshrc.private"
+if [ -f "$private_rc_file_path" ]; then
+    source $private_rc_file_path
+fi
+
 export SCREENDIR=$HOME/.screen
