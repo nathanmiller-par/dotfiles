@@ -13,10 +13,10 @@
 [core]
     editor = vim
     autocrlf = input
-	excludesfile = /home/nathan/.gitignore_global
+    excludesfile = /home/nathan/.gitignore_global
 [diff]
-	tool = vimdiff
+    tool = vimdiff
 [difftool]
-	prompt = false
+    prompt = false
 [gpg]
-	program = gpg2
+    program = gpg2
