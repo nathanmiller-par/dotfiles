@@ -123,6 +123,7 @@ if [ -f "$private_rc_file_path" ]; then
     source $private_rc_file_path
 fi
 
+# export WSL2_HOST_IP=$(ipconfig.exe | grep 'vEthernet (WSL)' -A4 | cut -d":" -f 2 | tail -n1 | sed -e 's/\s*//g')
 export SCREENDIR=$HOME/.screen
 
 prompt_context () { }
