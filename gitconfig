@@ -17,8 +17,15 @@
     excludesfile = /home/nathan/.gitignore_global
     hooksPath = /home/nathan/dotfiles/git_hooks
 [diff]
-    tool = vimdiff
+    tool = vscode
 [difftool]
     prompt = false
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+    tool = vscode
+	renormalize = true
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
 [gpg]
     program = gpg2
