@@ -24,8 +24,19 @@
     cmd = code --wait --diff $LOCAL $REMOTE
 [merge]
     tool = vscode
-	renormalize = true
+    renormalize = true
 [mergetool "vscode"]
     cmd = code --wait $MERGED
 [gpg]
     program = gpg2
+[pager]
+    branch = false
+[pull]
+    ff = only
+[submodule]
+    fetchJobs = 4
+    recurse =  true
+[init]
+    defaultBranch = main
+[column]
+    ui = plain,nodense
