@@ -107,11 +107,15 @@ setopt no_share_history
 
 export TERM="xterm-256color"
 
+start_dir=~
+if [[ ! -z $STARTUP_DIRECTORY ]]; then
+    start_dir=$STARTUP_DIRECTORY
+fi
+
 export QUOTING_STYLE=literal
 export PATH="/home/$USER/.bin:$PATH"
 
-
-cd ~
+cd $start_dir
 
 private_rc_file_path="${HOME}/.zshrc.private"
 if [ -f "$private_rc_file_path" ]; then
