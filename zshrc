@@ -101,6 +101,7 @@ alias ll='ls -NlFh'
 alias lla='ls -NalFh'
 alias here="gio open . 2>/dev/null"
 alias sizes="du -hd1 . | sort -rh"
+alias ccat="pygmentize -g"
 
 setopt no_share_history
 
