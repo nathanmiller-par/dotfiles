@@ -5,6 +5,7 @@
     gud = !git pull && git push
     cliff = !clear && git diff
     pushup = !git push -u origin $(git rev-parse --abbrev-ref HEAD)
+    sup = submodule update --init --recursive
 [user]
     name = Nathan Miller
     email = nathan@nathanmiller.wtf
