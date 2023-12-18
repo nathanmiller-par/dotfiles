@@ -13,7 +13,7 @@
     default = simple
 [core]
     editor = vim
-    autocrlf = input
+    autocrlf = false
     excludesfile = /home/nathan/.gitignore_global
 [diff]
     tool = vimdiff
