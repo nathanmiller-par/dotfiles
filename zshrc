@@ -114,6 +114,7 @@ fi
 
 export QUOTING_STYLE=literal
 export PATH="/home/$USER/.bin:$PATH"
+export LESS="-F -X $LESS"
 
 cd $start_dir
 
