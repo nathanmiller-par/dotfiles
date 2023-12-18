@@ -15,6 +15,7 @@
     editor = vim
     autocrlf = false
     excludesfile = /home/nathan/.gitignore_global
+    hooksPath = /home/nathan/dotfiles/git_hooks
 [diff]
     tool = vimdiff
 [difftool]
