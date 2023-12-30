@@ -113,7 +113,7 @@ if [[ ! -z $STARTUP_DIRECTORY ]]; then
 fi
 
 export QUOTING_STYLE=literal
-export PATH="/home/$USER/.bin:$PATH"
+export PATH="/home/$USER/.local/bin:$PATH"
 export LESS="-F -X $LESS"
 
 cd $start_dir
