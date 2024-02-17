@@ -26,6 +26,9 @@ function install_dotfile() {
 }
 
 mkdir -p backups
+mkdir -p ${HOME}/.config
+
+git submodule update --init --recursive
 
 for dotfile in $DOTFILES
 do
