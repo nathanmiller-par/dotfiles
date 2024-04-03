@@ -103,6 +103,9 @@ alias here="gio open . 2>/dev/null"
 alias sizes="du -hd1 . | sort -rh"
 alias ccat="pygmentize -g"
 
+unalias fd
+alias fd="fdfind"
+
 setopt no_share_history
 
 export TERM="xterm-256color"
