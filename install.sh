@@ -10,6 +10,7 @@ DOTFILES="\
     bash_aliases \
     gitconfig \
     zshrc \
+    tmux.conf \
 "
 
 function install_dotfile() {
