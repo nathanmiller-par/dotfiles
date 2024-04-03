@@ -8,7 +8,7 @@
     sup = submodule update --init --recursive
 [user]
     name = Nathan Miller
-    email = nathan@nathanmiller.wtf
+    email = nathan.miller@partech.com
 [push]
     default = simple
 [core]
