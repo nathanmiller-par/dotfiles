@@ -1,0 +1,5 @@
+#!/bin/bash
+
+script_path=$(dirname $(realpath "$0"))
+
+${script_path}/pre-commit-jira.sh "$@"

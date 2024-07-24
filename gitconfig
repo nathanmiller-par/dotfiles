@@ -15,7 +15,7 @@
     editor = vim
     autocrlf = false
     excludesfile = /home/nathan/.gitignore_global
-    hooksPath = /home/nathan/dotfiles/git_hooks
+    hooksPath = /home/nathan/dotfiles/git/hooks
 [diff]
     tool = vscode
 [difftool]
