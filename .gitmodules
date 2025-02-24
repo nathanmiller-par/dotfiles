@@ -13,3 +13,6 @@
 [submodule "zsh-plugins/zsh-autosuggestions"]
 	path = zsh-plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "zsh-plugins/zsh-bitbake"]
+	path = zsh-plugins/zsh-bitbake
+	url = https://github.com/antznin/zsh-bitbake.git
